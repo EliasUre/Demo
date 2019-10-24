@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+}
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  width: 200px;
+  height: 200px;
+  flex-grow: 1;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.overlay {
+  background-color: dimgray;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: whitesmoke;
+  font-family: sans-serif;
+  opacity: 0;
+  transition: opacity .3s ease-in;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.project h3 {
+  margin: 0;
+  transform: translateY(-10px);
+  transition: transform .3s ease-out;
+}
+
+.overlay:hover h3 {
+  transform: translateY(0);
+}
+
+.project p {
+  margin: 0;
+}
+
+.project-1 {
+  background-image: url("https://cdn.glitch.com/036a645a-b7b6-4143-aa1a-10c013790750%2Fkruse-collins-V-l73g1P-ZQ-unsplash.jpg?v=1570992864392");
+}
+
+.project-2 {
+  background-image: url("https://cdn.glitch.com/036a645a-b7b6-4143-aa1a-10c013790750%2Fguille-pozzi-naJwfMcJ1XU-unsplash.jpg?v=1570993236659");
+}
+
+.project-3 {
+  background-image: url("https://cdn.glitch.com/036a645a-b7b6-4143-aa1a-10c013790750%2Fcristofer-jeschke-BO14MMJLMIk-unsplash.jpg?v=1570994445252");
+}
+
+.project-4 {
+  background-image: url("https://cdn.glitch.com/036a645a-b7b6-4143-aa1a-10c013790750%2Flerone-pieters-MU_OlJ_EQWU-unsplash.jpg?v=1570994521871");
+}
+
+.project-5 {
+  background-image: url("https://cdn.glitch.com/036a645a-b7b6-4143-aa1a-10c013790750%2Fmylon-ollila-j4ocWYAP_cs-unsplash.jpg?v=1570994593522");
+}
+
+.project-6 {
+  background-image: url("https://cdn.glitch.com/036a645a-b7b6-4143-aa1a-10c013790750%2Fcasey-horner-p69o_a7XqDM-unsplash.jpg?v=1570994649951");
+}
+
