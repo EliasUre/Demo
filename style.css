@@ -1,9 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #5EB7B7;
+    background-color: #808080;
     font-family: sans-serif;
-    color: white;
+    color: whitesmoke;
 }
 
 h1, h3 {
@@ -12,7 +12,7 @@ h1, h3 {
 }
 
 a {
-    color: white;
+    color: whitesmoke;
 }
 
 .page-container {
@@ -55,7 +55,7 @@ a {
 }
 
 .text-container {
-    border: 1px solid white;
+    border: 1px solid whitesmoke;
     margin: 32px;
     padding: 32px;
     border-radius: 4px;
@@ -72,7 +72,7 @@ a {
 
 .project {
     position: relative;
-    border: 1px solid white;
+    border: 1px solid whitesmoke;
     padding: 32px;
     padding-left: 0;
     margin: 32px;
@@ -111,17 +111,17 @@ a {
 }
 
 .project-1 {
-    background-image: url('assets/tmpimg.png');
+    background-image: url('assets/Conducting.jpeg');
 }
 
 .project-2 {
-    background-image: url('assets/tmpimg.png');
+    background-image: url('assets/Conducting.jpeg');
 }
 
 .project-3 {
-    background-image: url('assets/tmpimg.png');
+    background-image: url('assets/Conducting.jpeg');
 }
 
 .project-4 {
-    background-image: url('assets/tmpimg.png');
+    background-image: url('assets/Conducting.jpeg');
 }
